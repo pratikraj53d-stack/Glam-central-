@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Glam Central Admin</title>
+  <style>
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Arial;background:#f5f1ed;color:#29231e}
+    header{background:#29231e;color:white;padding:22px}
+    header h1{margin:0}
+    .container{padding:20px;max-width:900px;margin:auto}
+    .cards{display:grid;grid-template-columns:repeat(2,1fr);gap:15px}
+    .card{background:white;padding:20px;border-radius:15px;box-shadow:0 3px 15px #0001}
+    .card h2{margin-top:0}
+    button{background:#29231e;color:white;border:0;padding:12px 18px;border-radius:10px}
+    input,textarea{width:100%;padding:12px;margin:8px 0 15px;border:1px solid #ddd;border-radius:10px}
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Glam Central</h1>
+  <p>Admin Panel</p>
+</header>
+
+<div class="container">
+
+  <div class="cards">
+    <div class="card">
+      <h2>✂️ Services</h2>
+      <p>Add and manage salon services.</p>
+      <button onclick="alert('Services management coming soon')">
+        Manage
+      </button>
+    </div>
+
+    <div class="card">
+      <h2>🖼️ Gallery</h2>
+      <p>Manage your salon photos.</p>
+      <button onclick="alert('Gallery management coming soon')">
+        Manage
+      </button>
+    </div>
+
+    <div class="card">
+      <h2>⭐ Reviews</h2>
+      <p>Manage customer reviews.</p>
+      <button onclick="alert('Reviews management coming soon')">
+        Manage
+      </button>
+    </div>
+
+    <div class="card">
+      <h2>📩 Enquiries</h2>
+      <p>View customer enquiries.</p>
+      <button onclick="alert('No enquiries yet')">
+        View
+      </button>
+    </div>
+  </div>
+
+  <br>
+
+  <div class="card">
+    <h2>⚙️ Business Settings</h2>
+
+    <label>Business Name</label>
+    <input value="Glam Central">
+
+    <label>Phone</label>
+    <input value="+91 73710 08200">
+
+    <label>Address</label>
+    <textarea>1ST FLOOR NOOR MARKET, HOSPITAL ROAD, NEAR BY SADAR HOSPITAL, Naya Bazar, Babhnauli, Siwan, Bihar 841226</textarea>
+
+    <button onclick="alert('Settings saved')">
+      Save Settings
+    </button>
+  </div>
+
+</div>
+
+</body>
+</html>
